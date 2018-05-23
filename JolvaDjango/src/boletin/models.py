@@ -12,4 +12,4 @@ class Registrado(models.Model):
 		return self.email
 
 	def __str__(self):
-		return self.nombre
+		return self.email
