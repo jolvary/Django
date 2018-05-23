@@ -4,7 +4,7 @@ from django.db import models
 
 # Create your models here.
 class Registrado(models.Model):
-	nombre = models.CharField(max_length=100, blank=True, null=True)
+	nombre = models.CharField(max_length=100, blank=True) #Al tener puesto el null como True daba un error y no me permitía dejar el nombre en blanco.
 	email = models.EmailField()
 	timestamp =  models.DateTimeField(auto_now_add=True, auto_now=False)
 
