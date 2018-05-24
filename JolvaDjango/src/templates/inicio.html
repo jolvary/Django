@@ -2,11 +2,21 @@
 {% load crispy_forms_tags %}
 
 {% block head_title %}Bienvenido |{% endblock %}
+
+{% block jumbotron_content %}
+<div class = "row">
+	<div class = "col-sm-6">
       <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
-        <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
+        <h1>Probar Django Jolva</h1>
+        <p class="lead">Cosas chachis con Django.</p>
+        <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">Botoncito Rechulón &raquo;</a>
       </div>
+    </div>
+    <div class="col-sm-5" style="background-color: cyan; height: 277px"></div>
+</div>  
+
+{% endblock %}
+
 {{ titulo }}<br/>
 {{ request.user }}
 <hr/>
