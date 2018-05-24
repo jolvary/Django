@@ -1,12 +1,25 @@
 /* Show it's not fixed to the top */
 body {
-  min-height: 75rem;
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+	margin-bottom: 0px;
 }
 
 .lead {
-	text-align: right;
+	text-align: center!important;
 }
 
 .navbar-default {
 	background-color: #7fb6ec !important;
+	border-color: #337ab7 !important;
+}
+
+.navbar-default .navbar-brand {
+	color:FFF !important;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: red !important;
 }
