@@ -2,3 +2,11 @@
 body {
   min-height: 75rem;
 }
+
+.lead {
+	text-align: right;
+}
+
+.navbar-default {
+	background-color: #7fb6ec !important;
+}

@@ -3,8 +3,18 @@
 
 {% block head_title %}Bienvenido |{% endblock %}
 
+<style>
+{% block style %}
+.jumbotron{
+  background-color: #7fb6ec !important; 
+}
+{% endblock %}
+</style>
+
 {% block jumbotron %}
 		<div class="jumbotron">
+    <div class="container"> 
+
 <div class = "row text_align_center">
 	<div class = "col-sm-6 text_align_center">
       <div class="jumbotron text_align_center">
@@ -15,6 +25,7 @@
     </div>
     <div class="col-sm-5 text_align_center" style="background-color: cyan; height: 277px"></div>
 </div>  
+</div>
 		</div>
 
 {% endblock %}
