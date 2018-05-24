@@ -40,6 +40,11 @@ def inicio(request):
 #		abc2 = form_data.get("nombre")
 #		obj = Registrado.objects.create(email=abc, nombre=abc2)
 	if request.user.is_authenticated() and request.user.is_staff:
+		i = 1
+		for instance in Registrado.objects.all():
+			print(i)
+			print(instance.nombre)
+			i += 1
 		queryset = Registrado.objects.all().order_by("-timestamp") #.filter(nombre__iexact="karlita")
 		context = {
 			"queryset": queryset,

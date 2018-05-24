@@ -3,10 +3,105 @@
 	{
 		"selected_items":
 		[
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"nav",
+				"nav-item"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"form",
+				"form_email"
+			],
+			[
+				"email",
+				"email_from"
+			],
+			[
+				"cl",
+				"cleaned_data"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/templates/inicio.html",
+			"settings":
+			{
+				"buffer_size": 1507,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/about.html",
+			"settings":
+			{
+				"buffer_size": 411,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/boletin/views.py",
+			"settings":
+			{
+				"buffer_size": 2180,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/head_css.html",
+			"settings":
+			{
+				"buffer_size": 429,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/navbar.html",
+			"settings":
+			{
+				"buffer_size": 2196,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/static_pro/static/css/navbar-top.css",
+			"settings":
+			{
+				"buffer_size": 372,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 1243,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -41,15 +136,42 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jolvary/Desktop/JolvaDjango",
-		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango"
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/boletin",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/static_pro",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/static_pro/static",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/static_pro/static/css",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/static_pro/static/img",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/static_pro/static/js",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/templates"
 	],
 	"file_history":
 	[
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/static_pro/static/css/navbar-top.css",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/templates/head_css.html",
+		"/C/Users/Jolvary/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/registration/auth_urls.py",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/PruebaJolva/urls.py",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/templates/registration/registration_form.html",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/templates/registration/activation_email.txt",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/PruebaJolva/settings.py",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/templates/navbar.html",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/static_pro/static/css/custom.css",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/templates/forms.html",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/templates/base.html",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/templates/inicio.html",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/boletin/views.py",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/PruebaJolva/views.py",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/boletin/models.py",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/boletin/forms.py",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/boletin/admin.py",
+		"/C/Users/Jolvary/Desktop/Django/Django/JolvaDjango/src/static_pro/static/css/bootstrap.min.css",
+		"/C/Users/Jolvary/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/contrib/admin/options.py",
 		"/C/Users/Jolvary/Desktop/JolvaDjango/jolva"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -63,6 +185,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"django-registration",
+			"github",
+			"macd",
+			"form method",
+			"macd",
+			"macdbuih",
+			"extends",
+			"login",
+			"container",
+			"771"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -80,18 +212,223 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/templates/inicio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/boletin/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 553.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/head_css.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								318,
+								318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/templates/navbar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1041,
+								1041
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/static_pro/static/css/navbar-top.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								538,
+								538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 284.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -124,7 +461,7 @@
 	"project": "JolvaDjango.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -162,7 +499,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 210.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

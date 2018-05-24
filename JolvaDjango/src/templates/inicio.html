@@ -13,9 +13,16 @@
 </style>
 
 {% block jumbotron %}
-{% if reques.user.is_staff %}
-{{ queryset }}
+{% if request.user.is_staff %}
+<div class='container'>
+<table class='table'>
+  {% for instance in queryset %}
+  <tr><td>{{ instance }}</td><td>{{ instance.nombre }}</td><td>hace {{ instance.timestamp|timesince }}</td></tr><br/>
+  {% endfor %}
+</table>
+</div>
 {% else %}
+
 
 		<div class="jumbotron">
     <div class="container"> 
